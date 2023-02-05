@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #D5E1EF;
+}
+
+.qrcode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+}
+
+.qrcode_card {
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.qrcode__imagem {
+    width: 290px;
+    border-radius: 10px;
+}
+
+.qrcode__informacoes {
+    width: 290px;
+    text-align: center;
+    
+}
+
+ .qrcode__informacoes__titulo {
+    margin-bottom: 15px;
+    font-family: 'Outfit', sans-serif;
+    margin: 15px 0;
+    font-weight: 700;
+}
+
+.qrcode__informacoes__paragrafo {
+    color: hsl(220, 15%, 55%);
+    font-size: 0,93rem;
+    font-family: 'Outfit', sans-serif;
+}
+
+.rodape {
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(220, 15%, 55%);
+    font-size: 0,6rem;
+}
+
+.rodape__link {
+    color: #1b1919;
+}
+
+ 
